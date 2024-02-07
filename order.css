@@ -1,0 +1,24 @@
+.form-container{
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    background: linear-gradient(to bottom, rgb(255, 168, 0), rgb(255, 219, 64));
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    float: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.display-4{
+    color: white;
+    font-family: Impact,sans-serif;
+    text-align: center;
+}
+
+.form-label{
+    margin-top: 2%;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 5%;
+}

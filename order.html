@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="order.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img src="assets/logo.png" width="70px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse custom-navbar" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li>
+                <a class="nav-link" href="About Us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+          </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  On this page
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#form">Order Form</a></li>
+                </ul>
+              </li>
+              </ul>
+              <ul class="navbar-nav" style="margin-left: auto;">
+                <li class="nav-item">
+                    <a href="order.html" class="btn btn-outline-secondary" role="button">Order Now</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!--forms-->
+<section id="form">
+<div class="container">
+<form class="form-container">
+    <h3 class="display-4">Order Form</h3>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your full name...">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email...">
+            </div>
+        <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your full address..">
+        </div>
+        <div class="mb-3">
+            <label for="contact" class="form-label">Contact Number</label>
+            <input type="text" class="form-control" id="contact" placeholder="Enter your contact number...">
+        </div>
+        <label for="product" class="form-label">Products</label>
+        <select class="form-select" aria-label="product">
+            <option selected>Choose your order here</option>
+            <option value="1">Mango Cake (Php850)</option>
+            <option value="2">Ube Macapuno Cake (Php850)</option>
+            <option value="3">Chocolate Cake (Php850)</option>
+            <option value="4">Caramel Cake (Php850)</option>
+            <option value="5">Red Velvet Cake (Php850)</option>
+            <option value="6">Carrot Cake (Php850)</option>
+            <option value="7">Basque Burn Cheesecake (Php1000)</option>
+            <option value="8">Cherry Cheesecake (Php1100)</option>
+            <option value="9">Blueberry Cheesecake (Php1100)</option>
+            <option value="10">Fruit Cake (Php490. Php690, Php990)</option>
+            <option value="11">Revel Bar (Php220)</option>
+            <option value="12">Brownies (Php220)</option>
+            <option value="13">Oatmeal Cookies (Php300)</option>
+            <option value="14">Chocolate Chip Cookies (Php300)</option>
+            <option value="15">Cheesy Cupcakes (Php40)</option>
+            <option value="16">Macaroons (Php150)</option>
+        </select>
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="number" class="form-control" id="quantity">
+        </div>
+        <label for="payment" class="form-label">Payment Methods</label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="payment">
+            <label class="form-check-label" for="payment">COD</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="payment">
+            <label class="form-check-label" for="payment">Gcash (09429396806)</label>
+        </div>
+
+        <a class="btn btn-warning btn-lg" type="submit" value="Submit">Check Out</a>
+</form>
+</div>
+</section>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="developers">
+          <p class="text-start">Developed by:</p>
+          <ul>
+            <li>Charlene Balba</li>
+            <li>Anne Kaitlin Coquia</li>
+            <li>Patricia Maxene Purificacion</li>
+            <li>Gertie Anne Rabon</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="social-media">
+          <ul>
+            <li>Check out our page!</li>
+          <li><a href="https://www.facebook.com/delishbyarlene" target="_blank"><img src="assets/facebook.png" width="60px" height="60px" alt="Facebook"></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  </body>
+  </html>
